@@ -1,0 +1,69 @@
+div.titlemdmanage>h1>input {
+background: #195500;
+font: normal normal bold 25px/29px NanumGothic;
+font-size: 15px;
+color: white;
+}
+        
+div.titlemdmanage>h1 {
+font: normal normal bold 25px/29px NanumGothic;
+font-size: 28px;
+}
+        
+table.mdmanagetable {
+text-align: center;
+width: 100%;
+border: 1px solid #afafaf;
+border-collapse: collapse;
+
+}
+        
+.tabletitle {
+text-align: center;
+vertical-align: middle;
+font: normal normal bold 25px/29px NanumGothic;
+font-size: 15px;
+background-color: e6e6e6;
+width: 497px;
+height: 40px;
+}
+        
+tbody>tr>td {
+    font: normal normal bold 25px/29px NanumGothic;
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+ }
+
+tbody>tr>td>img {
+padding: 0;
+margin: 0 auto;
+width: 150px;
+height: 150px;
+}
+
+div.hover-slider ul {
+	text-align: center;
+}
+div.hover-slider ul li {
+	display: inline;
+    vertical-align: middle;
+}
+div.hover-slider ul li a {
+	display: -moz-inline-stack;
+	display: inline-block;
+    padding:4px;
+	margin-right:3px;
+	width:25px;
+	color:#000;
+	font:bold 15px  NanumGothic;
+	border:1px solid #eee;
+	text-align:center;
+	text-decoration:none;
+}
+div.hover-slider ul li a:hover, div.hover-slider ul li a:focus {
+	color:#fff;
+	border:1px solid #195500;
+	background-color : #195500;
+}

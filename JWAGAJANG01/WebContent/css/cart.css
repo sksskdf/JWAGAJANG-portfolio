@@ -1,0 +1,147 @@
+* {
+	font-family: 'Nanum Gothic', sans-serif;
+}
+/*전체 네비게이션*/
+.pagenav {
+	width: 1200px;
+	margin: 0 auto;
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.navarrow {
+    margin: 0 7px 0 7px;
+    padding: 6px;
+    background: url(../img/navarrow.svg) no-repeat;
+    background-position: 0px;
+}
+#cartwrap {
+	margin: 0 auto;
+	margin-top: 49px;
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	width: 953px;
+}
+h1 {
+	font-size: 23px;
+	font-weight: bold;
+}
+/*구매진행 네비게이션*/
+.cartnav {
+	font-size: 15px;
+}
+.nowpage {
+	color: #195500;
+	font-weight: bold;
+}
+/*장바구니 영역*/
+.cartform {
+	margin-top:40px;
+	width: 100%;
+}
+.cartconts {
+	width: 100%;
+	border: none;
+	border-collapse: collapse;
+}
+.cartconts th {
+	background-color: #00000007;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 12px 30px;
+}
+.cartconts td {
+	text-align: center;
+	vertical-align: middle;
+	padding: 20px 15px;
+	border-bottom: 1px solid #E6E6E6;
+	
+}/*표 안의 모든 요소를 세로로 가운데 정렬! */
+.cartconts td>* {
+	vertical-align: middle;
+}
+.cartconts img {
+	width: 110px;
+	height: 110px;
+}
+.mddesc {
+	margin-left:34px;
+}
+.mddesc>a {
+	text-decoration:none;
+	color: #707070;
+	font-weight: bold;
+}
+/*Spinner*/
+
+
+/*장바구니 가격 영역*/
+span[class$=price], span[id$=price]} {
+	font-weight:bold;	
+}
+.originprice {
+	font-size: 12px;
+	color: #B2B2B2;
+	text-decoration: line-through;
+}
+.saleprice {
+	color: #000000;
+}
+/*버튼*/
+input[class$=btn] {
+	min-width: 80px;
+	height: 25px;
+	font-size: 12px;
+	padding: 0px 14px;
+	cursor: pointer;
+}
+.colorbtn {
+	background-color: #195500;
+	color:#FFFFFF;
+	border:none;
+}
+.normalbtn {
+	background-color: #FFFFFF ;
+	color: #195500;
+	border:1px solid #195500;
+}
+/*가격표시영역*/
+.pricewrap {
+	display: flex;
+	flex-direction: row;
+	width:100%;
+	height: 100px;
+	background-color: #00000007;
+	margin-top: 42px;
+}
+.pricewrap>* {
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+}
+.pricelist {
+	width: 31.164742%;
+		font-weight: bold;
+}
+.operator {
+	width: 2.93809%
+}
+.pricedesc {
+	font-size: 12px;
+	color: #195500;
+}
+.price {
+	font-size: 20px;
+	color: #000000;
+}
+/*버튼 섹션*/
+.buttonsec {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+

@@ -1,0 +1,44 @@
+section div.titlemdadd {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font: normal normal bold 25px/29px NanumGothic;
+}
+
+table {
+    text-align: center;
+    display: block;
+    top: 323px;
+    left: 544px;
+    width: 833px;
+    height: 60px;
+    border: 1px solid #afafaf;
+    border-collapse: collapse;
+    opacity: 1;
+    list-style: none;
+}
+
+table>tbody>tr>th {
+    display: flex;
+    flex-direction: column;
+    background: #e6e6e6;
+    border: hidden;
+    padding: 10px 20px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+table>tbody>tr>td {
+    border: 0px;
+    font-size: 17px;
+}
+
+div.mdadd_button>input {
+    background: #195500;
+    font: normal normal bold 18px/29px NanumGothic;
+    color: white;
+}

@@ -1,0 +1,442 @@
+﻿section {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+.pagenav {
+	margin-top: 40px;
+	font-size: 12px;
+}
+
+.navarrow {
+	margin: 0 7px 0 7px;
+	padding: 6px;
+	background: url(../img/navarrow.svg) no-repeat;
+	background-position: 0px;
+}
+
+.notice {
+	text-align: center;
+	margin: 0 auto;
+	width: 953px;
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: bold;
+	margin: 40px 0 50px 0;
+}
+
+/* notice 테이블 */
+.brdbox {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 40px;
+	border: #00000026 solid 0.5px;
+	border-width: 0.5px 0px; /* 테두리 두깨 : 위아래, 양옆 */
+}
+
+.brdbox :nth-child(1) {
+	width: 205.83px;
+}
+
+.brdbox :nth-child(2) {
+	width: 604px;
+}
+
+.brdbox :nth-child(3) {
+	width: 137px;
+}
+
+.brdbox :nth-child(4) {
+	width: 105.83px;
+}
+
+/* brdView 테이블 */
+.brdView {
+	width: 953px;
+}
+
+.brdViewbox {
+	background: #00000007;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 40px;
+	border-spacing: 0;
+}
+
+.brdViewbox :nth-child(1) {
+	width: 205.83px;
+}
+
+.brdViewbox :nth-child(2) {
+	width: 604px;
+}
+
+.brdViewbox :nth-child(3) {
+	width: 137px;
+}
+
+.brdViewbox :nth-child(4) {
+	width: 105.83px;
+}
+
+pre {
+	padding-left: 40px;
+	width: 953px;
+	line-height: 30px;
+	text-align: left;
+}
+
+.content { /* 공지사항 상세보기 내용 */
+	width: 953px;
+	padding: 40px 0;
+}
+
+/* brdWritebox 테이블 */
+.brdWritebox {
+	background-color: #F7F7F7;
+	width: 953px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 60px;
+}
+
+.brdWritebox th>* {
+	vertical-align: middle; /* 블럭 가운데 배치 */
+}
+
+.brdWritebox tr :nth-child(2) {
+	text-align: left;
+	background-color: white;
+	border: #F7F7F7 solid 0.5px;
+	border-width: 0.5px 0px; /* 테두리 두깨 : 위아래, 양옆 */
+}
+
+.sortinput {
+	color: #707070;
+	text-indent: 5px; /* 들여쓰기 */
+	width: 310px;
+	height: 38px;
+	border: #00000026 solid 0.5px;
+	margin-left: 15px;
+	border-width: 0.5px;
+}
+
+.titleinput {
+	color: #707070;
+	text-indent: 5px;
+	width: 310px;
+	line-height: 34px;
+	border: #00000026 solid 0.5px;
+	margin-left: 15px;
+	border-width: 0.5px
+}
+
+#textarea {
+	height: 434px;
+}
+
+textarea {
+	color: #707070;
+	margin: 15px;
+	width: 770px;
+	height: 408px;
+	border: #00000026 solid 0.5px;
+	border-width: 0.5px
+}
+
+/* 게시판 버튼 */
+.writebox {
+	display: inline-block;
+	width: 100%;
+}
+
+.writebtn {
+	float: right;
+	width: 52px;
+	line-height: 23px;
+	color: white;
+	background: #195500;
+	border: 0;
+	margin: 10px 0;
+}
+
+.upbtn {
+	font-size: 14px;
+	float: left;
+	width: 52px;
+	line-height: 23px;
+	color: #195500;
+	background: white;
+	border: #195500 solid 0.5px;
+	margin: 10px 5px 0 0;
+}
+
+.delbtn {
+	float: left;
+	width: 52px;
+	line-height: 23px;
+	color: #195500;
+	background: white;
+	border: #195500 solid 0.5px;
+	margin: 10px 0;
+}
+
+.listbtn {
+	float: right;
+	width: 52px;
+	line-height: 23px;
+	color: #195500;
+	background: white;
+	border: #195500 solid 0.5px;
+	margin: 10px 0;
+}
+
+.noticeWritebtn {
+	text-align: center;
+	margin: 30px;
+}
+
+/* 게시글 찾기  */
+.noticeSrc {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.srcoption {
+	height: 25px;
+	border: #00000026 solid 0.5px;
+}
+
+.searchtext {
+	width: 220px;
+	line-height: 22px;
+	border: #00000026 solid 0.5px;
+}
+
+.searchbtn {
+	width: 44px;
+	line-height: 23px;
+	color: white;
+	background: #195500;
+	border: 0;
+	margin: 10px 0;
+}
+
+.resetbtn {
+	font-size: 14px;
+	line-height: 23px;
+	color: #195500;
+	background: white;
+	border: #195500 solid 0.5px;
+	margin: 10px 5px 0 0;
+}
+
+.sendbtn {
+	font-size: 14px;
+	line-height: 23px;
+	color: #195500;
+	background: white;
+	border: #195500 solid 0.5px;
+	margin: 10px 5px 0 0;
+}
+
+.noticelistbtn {
+	font-size: 14px;
+	line-height: 23px;
+	color: white;
+	background: #195500;
+	border: 0;
+	margin: 10px 0;
+}
+
+.record {
+	background: #fafafa;
+	font-size: 14px;
+	line-height: 40px;
+}
+
+.record_2 {
+	text-align: left;
+}
+
+.record_3 {
+	text-align: center;
+}
+
+/* Customized Paging */
+.pg_wrap {
+	font-size: 13px;
+	text-align: center;
+}
+
+.prev {
+	margin-right: 20px;
+	padding: 6px;
+	background: url(../img/prev.svg) no-repeat;
+	background-position: 0px;
+}
+
+.next {
+	margin-left: 20px;
+	padding: 6px;
+	background: url(../img/next.svg) no-repeat;
+	background-position: 0px;
+}
+
+.pg_currpno {
+	color: #707070;
+	border: none;
+	text-align: center;
+	width: 28px;
+	height: 28px;
+	border-radius: 14px;
+	background: none;
+}
+
+.pg_currpno:hover {
+	color: white;
+	background: #195500;
+}
+
+.pg_currpnosel {
+	color: #195500;
+	font-weight: 700;
+}
+
+.on {
+	color: #195500;
+	font-weight: 700;
+}
+
+/* ------------------QNA---------------- */
+
+/* qna list */
+.qnabrdbox {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 40px;
+	border: #00000026 solid 0.5px;
+	border-width: 0.5px 0px; /* 테두리 두깨 : 위아래, 양옆 */
+}
+
+.qnabrdbox :nth-child(1) {
+	width: 185px;
+}
+
+.qnabrdbox :nth-child(2) {
+	width: 515px;
+}
+
+.qnabrdbox :nth-child(3) {
+	width: 106px;
+}
+
+.qnabrdbox :nth-child(4) {
+	width: 136px;
+}
+
+.qnabrdbox :nth-child(5) {
+	width: 106px;
+}
+
+/* qnaView 테이블 */
+.qnaViewbox {
+	width: 953px;
+	background: #00000007;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 40px;
+	border-spacing: 0;
+}
+
+.qnaViewbox :nth-child(1) {
+	width: 185px;
+}
+
+.qnaViewbox :nth-child(2) {
+	width: 400px;
+}
+
+.qnaViewbox :nth-child(3) {
+	width: 106px;
+}
+
+.qnaViewbox :nth-child(4) {
+	width: 136px;
+}
+
+.qnaViewbox :nth-child(5) {
+	width: 106px;
+}
+
+h4 {
+	padding: 40px;
+}
+
+/* qna 리플 */
+.replelist {
+	height :120px;
+	width : 953px;
+	text-align: center;
+	margin-bottom : 50px;
+}
+#hang1, #hang3{
+	vertical-align : middle;
+	font-weight : bold;
+	font-size : 14px;
+	background: #FAFAFA;
+	width : 120px;
+}
+#pre {
+		width : 704px;
+}
+#hang2{
+	vertical-align : middle;
+	font-size : 14px;
+	text-align : left;
+
+	border : #fafafa solid 1px ;
+}
+
+
+.reply {
+	width: 953px;
+	display: flex;
+}
+
+.replybox {
+	margin: 0;
+	width: 834px;
+	height: 80px;
+}
+
+.replybtn {
+	width: 115px;
+	text-align: right;
+}
+
+#register {
+	color: white;
+	width: 109px;
+	height: 45px;
+	background: #195500;
+	border-radius: 3px;
+	border: none;
+}
+#replydle {
+	margin-top: 5px;
+	width: 109px;
+	height: 30px;
+	border: 0.5px solid #195500;
+	background: none;
+	border-radius: 3px;
+	color: #195500;
+}

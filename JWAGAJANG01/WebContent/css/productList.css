@@ -1,0 +1,171 @@
+* {
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+div.titleproductList>h1 {
+    font: normal normal bold 25px/29px NanumGothic;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div.titleproductList>h1>input {
+    background: #195500;
+    font: normal normal bold 25px/29px NanumGothic;
+    font-size: 15px;
+    color: white;
+    outline: none;
+    border: 0;
+}
+
+div.sortlist{
+	float: right;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+table.productListtable {
+    text-align: center;
+    width: 100%;
+    border: 0px solid #afafaf;
+    border-collapse: collapse;
+}
+
+table.sort2 tbody>tr>td {
+	padding: 0px 15px 0 15px;
+    border-right: 1px solid #e6e6e6;
+    font: normal normal normal 12px/14px NanumGothic;
+    cursor: pointer;
+}
+
+tr.tabletitle {
+    font: normal normal bold 25px/29px NanumGothic;
+    font-size: 14px;
+    background-color: #e6e6e6;
+    width: 497px;
+    height: 30px;
+}
+
+table.productListtable>tbody>tr {
+	border-bottom:1px solid #e6e6e6;
+}
+
+
+select {
+width: 200px;	
+height: 25px;
+border: #e6e6e6 solid 2px;
+font: normal 15px NanumGothic;
+text-align: center;
+color: #707070;
+
+}
+
+
+tbody>tr>td {
+    font: normal normal bold 25px/29px NanumGothic;
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.thumbimg {
+	vertical-align:top;
+    padding: 10px;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+tbody>tr>td>input.editbtn {
+    color: #195500;
+    background: white;
+    border: #195500 solid 1px;
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+}
+
+tbody>tr>td>input.deletebtn {
+    color: #195500;
+    background: white;
+    border: #195500 solid 1px;
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+}
+
+/* Customized Paging */
+.pg_wrap {
+	font-size : 13px;
+	text-align : center;
+}
+
+.prev {
+	margin-right : 20px;
+	padding : 6px;
+	background: url(../img/prev.svg) no-repeat;
+	background-position: 0px;
+}
+
+.next {
+	margin-left : 20px;
+	padding : 6px;
+	background: url(../img/next.svg) no-repeat;
+	background-position: 0px;
+}
+.pg_currpno {
+	border : none;
+	text-align : center;
+	width : 28px;
+	height : 28px;
+	border-radius : 14px ;
+	background : none;
+}
+
+.pg_currpno:hover {
+	color : white;
+    background:#195500;
+}
+.pg_currpno[aria-pressed=true] {
+	color : white;
+	font-weight : bold;
+	border-radius : 12px;
+    background:#195500;
+}
+
+/* div.hover-slider {
+	padding: 0px;
+    margin: 80px;
+    resize: vertical;
+}
+
+div.hover-slider ul {
+    text-align: center;
+}
+
+div.hover-slider ul li {
+    display: inline;
+    vertical-align: middle;
+    padding: 0 13px 0 13px;  
+}
+
+div.hover-slider ul li a {
+    display: contents;
+    padding: 4px;
+    margin-right: 3px;
+    width: 25px;
+    color: #afafaf;
+    font: bold 14px NanumGothic;
+    border: 0px solid #eee;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div.hover-slider ul li a:hover,
+div.hover-slider ul li a:focus {
+    color: #fff;
+    border: 1px solid #195500;
+    background-color: #195500;
+} */

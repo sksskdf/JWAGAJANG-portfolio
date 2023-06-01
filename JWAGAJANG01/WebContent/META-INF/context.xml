@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 디비연결에 필요한 정보 저장 -->
+   <!-- 
+        속성 
+        name : 외부에서 해당 정보에 접근할수있도록하는 이름값(변경가능)
+        auth : 자원관리자를 지정(Container/Application)
+        type : 웹에서 사용될때(name으로 호출) 표시되는 객체 타입
+        driverClassName : JDBC 드라이버 주소(mysql) (변경가능)
+            ORACLE : oracle.jdbc.driver.OracleDriver
+        url : 디비가 존제하는 위치 (디비서버의 주소)  (변경가능) 
+            ORACLE : jdbc:oracle:thin:@localhost:1521:orcl
+        username/password : 디비 접속 계정
+        
+        maxWait : 커넥션풀에 사용가능한 커넥션이 없을경우 커넥션의 회수를 기다리는 시간지정
+                 ( 1 / 1000 초  사용)      
+        
+    -->
+   
+<!--   <Context>
+     <Resource 
+        name="jdbc/model2DB"
+        auth="Container"
+        type="javax.sql.DataSource"
+        driverClassName="com.mysql.cj.jdbc.Driver"
+        url="jdbc:mysql://localhost:3306/jwagajang"
+        username="jwagajang"
+        password="1234"     
+     /> 
+ 	</Context> -->
+ 
+  <Context>
+     <Resource 
+     	name="jdbc/jwagajang"
+        auth="Container"
+        type="javax.sql.DataSource"
+        driverClassName="com.mysql.cj.jdbc.Driver"
+        url="jdbc:mysql://db-1:3306/jwagajang"
+        username="jwagajang"
+        password="1234"
+        maxTotal="20" maxIdle="10" maxWaitMillis="-1"     
+     />
+   </Context>

@@ -1,0 +1,83 @@
+     /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~PC용 CSS~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+     * {
+       font-size: 16px;
+     }
+      /*~~~~~~~슬라이더 영역~~~~~~~*/
+      .swiper {
+        width: 100%;
+        height: 300px;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      /*아이템 영역*/
+      #contentwrap {
+        display:flex;
+        flex-flow:column wrap;
+        width:100%;
+        margin:0 auto;
+        max-width:1200px;
+      }
+      div[class $="Title"] {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5px;
+      }
+      div[class $="Title"] h1 {
+        font-size: 25px;
+        color: #707070;
+        font-weight: bold;
+      }
+
+      div[class $="Title"]>p>a {
+        text-decoration: none;
+        color: #707070;
+      }
+
+      div[class $="Contents"] {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-bottom: 40px;
+      }
+      div[class $="Contents"] img{
+        width: 280px;
+        height: 280px;
+        margin-bottom: 15px;
+      }
+      div[class $="Contents"] p {
+        width: fit-content;
+        line-height:1.5;
+      }
+      .title {
+        font-weight: bold;
+        color: #707070;
+      }
+      .salerate {
+        font-weight:900;
+        color: #FF4600;
+      }
+      .saleprice {
+        font-weight: bold;
+        color: #000000;
+      }
+      .price {
+        font-size: 12px;
+        color: #B2B2B2;
+        text-decoration: line-through;
+      }
+      
+      a {
+      text-decoration: none;
+      }
+    
+      

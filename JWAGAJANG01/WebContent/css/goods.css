@@ -1,0 +1,470 @@
+#wrap {
+    display:flex;
+    flex-flow:row wrap;
+    width:100%;
+    margin:0 auto;
+    max-width:1200px;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    cursor:pointer;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.pagenav {
+    width: 100%;
+    float: left;
+    margin: 40px 0px 0px 0px;
+}
+
+.pagenav a {
+    color: #707070;
+    font: normal normal normal 12px/14px NanumGothic;
+}
+
+.navarrow {
+    margin: 0 7px 0 7px;
+    padding: 6px;
+    background: url(../img/navarrow.svg) no-repeat;
+    background-position: 0px;
+}
+
+.goods {
+    width: 100%;
+    margin: 40px;
+}
+
+select_sort > a {
+	cursor: pointer;
+}
+
+.goods_img {
+    width: 552px;
+    height: 552px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    float: left;
+}
+
+.goods_info {
+    width: 520px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.goods_title {
+    font: normal normal bold 24px/28px NanumGothic;
+    color: #707070;
+    margin-bottom: 40px;
+}
+
+.price {
+    text-decoration: line-through;
+    font: normal normal bold 16px/19px NanumGothic;
+    color: #B2B2B2;
+}
+
+
+.goods_dc {
+    display: block;
+}
+
+#cost {
+    font: normal normal bold 28px/32px NanumGothic;
+    color: #000000;
+}
+
+.dc {
+    font: normal normal bold 28px/32px NanumGothic;
+    color: #195500;
+}
+
+.goods_info hr {
+    border: 1px solid #707070;
+    opacity: 0.25;
+    margin: 40px 0px;
+}
+
+.goods_info dl {
+    font: normal normal normal 13px/15px NanumGothic;
+    color: #707070;
+}
+
+.goods_info dt {
+    width: 90px;
+    height: 40px;
+    float: left;
+}
+
+.shipping {
+    height: 50px;
+}
+
+.shipping dt {
+    width: 90px;
+    height: max-content;
+    float: left;
+}
+
+.shipping dd {
+    width: 430px;
+    float: left;
+}
+
+.orderpay {
+    color: #195500;
+}
+
+.addshipping {
+    font: normal normal normal 10px/11px NanumGothic;
+    padding-top: 7px;
+}
+
+.countbtn {
+    width: 74px;
+    height: 21px;
+    border: 0.25px solid #707070;
+    display: inline-block;
+    text-align: center;
+}
+
+#goods_qty {
+    width: 30px;
+    height: 15px;
+    border: 0;
+    outline: none;
+    float: left;
+    padding-top: 6px;
+	text-align: center;
+}
+
+.minusbtn, .plusbtn {
+    width: 20px;
+    height: 20px;
+    border: 0;
+    border-radius: 0;
+    float: left;
+    background-color: transparent;
+}
+
+.minusbtn {
+    border-right: 0.25px solid #707070;
+}
+
+.plusbtn {
+    border-left: 0.25px solid #707070;
+}
+
+.total dt {
+    width: 520px;
+    height: 25px;
+    display: block;
+}
+
+.total_cost {
+    font: normal normal bold 32px/36px NanumGothic;
+    color: #000000;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.won {
+    font: normal normal bold 24px/28px NanumGothic;
+    text-align: right;
+    padding: 20px 0px 50px 0px;
+}
+
+.btn button {
+    width: 161px;
+    height: 52px;
+    text-align: center;
+    font: normal normal bold 16px/19px NanumGothic;
+    border-radius: 3px;
+}
+
+.buynowbtn {
+    color: #FFFFFF;
+    background-color: #195500;
+    border: 0;
+    margin-right: 13px;
+}
+
+.cartbtn {
+    color: #195500;
+    background-color: #FFFFFF;
+    border: 0.5px solid #195500;
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+.favbtn {
+    color: #195500;
+    background-color: #FFFFFF;
+    border: 0.5px solid #195500;
+    cursor:pointer;
+}
+
+.goods_tab {
+    width: 100%;
+    height: 52px;
+    display: flex;
+    margin-top: 62px;
+}
+
+.goods_tab li {
+    width: 50%;
+    display: flex;
+    flex: 1;
+    margin: 0 auto;
+}
+
+.goods_tab a {
+    font: normal normal bold 16px/19px NanumGothic;
+    border-radius: 6px 6px 0px 0px;
+    text-align: center;
+    flex: 1;
+    line-height: 3;
+}
+
+.tab_on {
+    color: #FFFFFF;
+    background-color: #195500;
+}
+
+.tab_off {
+    color: #195500;
+    background-color: #FFFFFF;
+    border: 0.5px solid #195500;
+}
+
+.goods_img_detail {
+    margin-top: 50px;
+}
+
+.review_title {
+    height: 45px;
+    margin: 40px;
+}
+
+.review_tit {
+    font: normal normal bold 13px/15px NanumGothic;
+    color: #707070;
+}
+
+.review_desc {
+    font: normal normal normal 10px/11px NanumGothic;
+    color: #707070;
+    line-height: 2;
+}
+
+.review_list tr {
+    height: 50px;
+}
+
+.review_list td {
+    vertical-align: middle;
+    font: normal normal bold 14px/16px NanumGothic;
+    color: #707070;
+}
+
+.noReview {
+    font: normal normal bold 14px/16px NanumGothic;
+    color: #707070;
+	text-align: center;
+}
+
+.review_name, .review_date {
+    width: 200px;
+    text-align: center;
+}
+
+.review_rate {
+    width: 200px;
+}
+
+.review_content {
+    width: 600px;
+}
+
+.review_write {
+    border-spacing: 0;
+    margin: 40px 0;
+}
+
+.review_write td {
+    height: 50px;
+    border: 0.5px solid #707070;
+    text-align: center;
+}
+
+.reveiwLogin {
+    font: normal normal bold 14px/16px NanumGothic;
+    color: #707070;
+	text-align: center;
+	width: 100%;
+	border: 0.5px solid #195500;
+	margin: 50px 0;
+	padding: 20px;
+}
+
+.reveiwLogin a {
+	font: normal normal bold 16px/18px NanumGothic;
+	color: #195500;
+}
+
+.write_name, .write_rate {
+    width: 200px;
+}
+
+.write_content {
+    width: 600px;
+}
+
+.write_submit {
+    width: 120px;
+}
+
+.review_write input, textarea {
+    border: none;
+    outline: none;
+    font: normal normal bold 14px/16px NanumGothic;
+}
+
+#writer, #stars {
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    background-color: transparent;
+}
+
+#writervw {
+    width: 96%;
+    height: 45%;
+    vertical-align: middle;
+    resize: none;
+    margin: 6px 0;
+    background-color: transparent;
+}
+
+#submitbtn {
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+    background-color: #195500;
+    text-align: center;
+}
+
+.footnav {
+    width: 1200px;
+    height: 75px;
+    background-color: #FFFFFF;
+    border: 0.5px solid #707070;
+    border-radius: 15px 15px 0px 0px;
+    position: fixed;
+    bottom: 0;
+    font: normal normal bold 16px/18px NanumGothic;
+    color: #707070;
+    vertical-align: middle;
+    z-index: 10;
+    display: none;
+    box-sizing: content-box;
+}
+
+.footnav > div {
+    line-height: 80px;
+}
+
+.footnav_list ul {
+    width: 60%;
+    float: left;
+}
+
+.footnav_list li {
+    width: 150px;
+    text-align: center;
+}
+
+.line {
+    width: 0.5px;
+    height: 30px;
+    background-color: #ABABAB;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footnav_latest p, ul, li {
+    display: inline-block;
+}
+
+.footnav_latest p {
+    margin-right: 20px;
+}
+
+.footnav_latest li {
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.footnav_latest img {
+    width: 100%;
+    height: 100%;
+}
+
+.top_btn {
+    width: 40px;
+    height: 40px;
+    float: right;
+    padding: 15px 50px;
+    opacity: 0.47;
+    box-sizing: content-box;
+}
+
+.topbtn {
+    display: none;
+}
+
+.stars{
+    margin: auto;
+    cursor: pointer;
+    text-align : center;
+	width : 110px;
+}
+
+.stars .star{
+	line-height : 50px;
+   width : 110px;
+}
+
+.stars .star{
+   line-height : 50px;
+    width: 20px;
+    height: 15px;
+    padding: 2px;
+    display: inline-block;
+}
+
+.star.empty{
+    background: url("../img/star-empty.png") no-repeat;
+}
+
+.star.half{
+    background: url("../img/star-half.png") no-repeat;
+}
+
+.star.full{
+    background: url("../img/star-full.png") no-repeat;
+}
+
+
+
+

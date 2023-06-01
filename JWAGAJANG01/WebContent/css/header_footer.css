@@ -1,0 +1,195 @@
+ /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~PC용 CSS~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+* {
+box-sizing: border-box;
+}
+html, body {
+margin: 0;
+padding: 0;
+}
+#pagewrap {
+min-height: 100vh;
+position: relative;
+}
+section {
+	padding-bottom: 83px;
+}
+ /*header CSS*/
+header {
+   width: 100%;
+   padding-top: 52.24px;
+   border-bottom: #E6E6E6 1px solid;
+}
+.headerwrap {
+  display:flex;  
+  max-width:1200px;
+  flex-flow:row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin:0 auto;
+}
+.logo {
+  display: inline-flex;
+  height: fit-content;
+  align-items: center;
+}
+.logo_img {
+  width: 150px;
+  height: 73px;
+}
+.search {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+#schText{
+  width: 650px;
+  height: 37px;
+  border: none;
+  background-color: #E6E6E6;
+  border-radius:37px;
+  padding-left: 14.51px;
+}
+#schButton {
+  position: absolute;
+  right: 14.51px;
+  top: 6.76px;
+}
+.gnb{
+  padding-left: 0;
+  margin: 0;
+}
+.ctgry {
+  text-decoration: none;
+  color: #707070;
+  font-weight: bold;
+}
+.gnbmy {
+  display: flex;
+  flex-direction: row;
+  font-size:13px;
+}
+.gnbmy>li:nth-child(n+2) {
+  margin-left: 33px;
+}
+.gnb{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.gnb_li {
+  box-sizing: content-box;
+  margin-top: 18px ;
+  margin-bottom: 18px;
+  padding: 0 56px;
+  color: #272727;
+}
+.gnbmy>li>a {
+  text-decoration: none;
+  color: #707070;
+  font-weight: bold;
+}
+
+.gnb>li:first-of-type {
+  padding-left: 0;
+  margin:0;
+  padding-top: 18px ;
+  padding-bottom: 18px;
+}
+.gnb>li:nth-last-child(2) {
+  border-left: solid 2px #E6E6E6;
+}
+ .gnb>li:first-of-type:hover .lnb {
+  display: block;
+}
+.lnb{
+  display: none;
+  position: absolute;
+  margin-top: 18px;
+  z-index: 100;
+  background-color: #FFFFFF;
+  width: fit-content;
+  font-size: 13px;
+  font-weight: bold;
+  border-collapse: collapse;
+}
+.lnb_tr {
+  padding: 8px;
+  border: 0.25px solid #E6E6E6;
+}
+ .lnb_th {
+  padding: 8px;
+  border: 0.25px solid #E6E6E6;
+}
+ .lnb_td {
+  padding: 8px;
+  border: 0.25px solid #E6E6E6;
+  padding: 9px 21px 8px 21px;
+}
+.lnb_td>a {
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: normal;
+  color: #707070;
+}
+.cate>a{
+  font-weight: normal !important;
+  color: #707070 !important;
+}
+
+/*footer CSS*/
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #00000007;
+	bottom:0;
+ }
+.footerwrap {
+   display:flex;  
+   width:1200px;
+   flex-flow:row wrap;
+   justify-content: left;
+   align-items: center;
+   margin:0 auto;
+ }
+footer img {
+  width: 105.22px;
+  height: 51.04px;
+  margin: 16px 53px;
+  opacity: 0.3;
+}
+footer p {
+  margin: 0;
+  font-size: 12px;
+  color: #393939;
+}
+.topbtn{
+  position: fixed;
+  bottom: 9.2592592%;
+  right: 5.052083%;
+  z-index: 100;
+  cursor:pointer;
+}
+.topbtn>img {
+  width: 40px;
+  height: 40px;
+}
+
+.loginInfoBox {
+	position: absolute; 
+	right: 1px; 
+	display:flex; 
+	align-items: center;
+}
+.logoutBtn {
+	margin-left: 15px;
+}
+
+#schButton {
+	background:url(../img/search.svg);
+	background-repeat: no-repeat;
+	width:40px;
+	height:40px;
+	border: 0;
+	cursor: pointer;
+}
