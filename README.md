@@ -42,6 +42,7 @@
 
 ------
 
-## 
+## 화면정의서, 프로젝트기획서, 발표동영상 드라이브 링크
 https://drive.google.com/drive/folders/1n08wkLEgm01XAh8pldpRjYF7TbtgZSIn?usp=sharing
-https://drive.google.com/drive/folders/1n08wkLEgm01XAh8pldpRjYF7TbtgZSIn?usp=drive_link
+
+------
