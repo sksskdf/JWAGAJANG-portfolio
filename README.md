@@ -11,9 +11,37 @@
 ## 개발스택
 - JSP, Servlet, jQuery, JavaScript, MySQL, Apache Tomcat, Docker
 
+------
+
 ## 서비스 주요 기능
 - 메인 페이지(각 주제 별 상품리스트 간단히 모아 보기)
 - 회원가입 / 로그인 / 장바구니 / 관리자 페이지 / 마이페이지 
 - 공지사항 / 공지 글 쓰기, 수정 / 공지 글 보기
 - 문의사항 / 문의 글 쓰기, 수정 / 문의 글 보기
 - 카테고리(드롭다운) / 상품목록 / 상세페이지
+
+------
+
+## 담당한 기능
+### 로그인
+입력폼을 통해 전달된 ID와 PW를 검증 후 SESSION에 로그인 정보를 저장합니다.
+만약 로그인 정보가 MEMBER 테이블에 없다면 알림창을 팝업합니다.
+
+### 회원가입
+입력 된 정보들을 조건에 맞게 검사 한 후 MEMBER 테이블로 INSERT 합니다.
+
+### 마이페이지
+일반회원인 경우 회원정보수정탭과 찜목록탭이 제공됩니다.
+관리자인 경우 회원정보수정탭과 상품등록/상품수정탭이 제공됩니다.
+
+### 주문내역
+주문내역 테이블로부터 주문내역을 출력합니다.
+
+### 찜하기
+찜목록에 담아뒀던 상품들을 출력하고 장바구니로 이동 버튼 클릭 시 장바구니에 찜했던 상품이 추가됩니다.
+
+------
+
+## 
+https://drive.google.com/drive/folders/1n08wkLEgm01XAh8pldpRjYF7TbtgZSIn?usp=sharing
+https://drive.google.com/drive/folders/1n08wkLEgm01XAh8pldpRjYF7TbtgZSIn?usp=drive_link
